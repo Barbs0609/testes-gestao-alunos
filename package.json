@@ -1,0 +1,13 @@
+{
+  "name": "testes-gestao-alunos",
+  "version": "1.0.0",
+  "scripts": {
+  "test": "mocha --timeout 10000 test/**/*.spec.js"
+},
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4"
+  }
+}

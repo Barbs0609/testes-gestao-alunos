@@ -1,0 +1,8 @@
+{
+  "nome": "João Silva",
+  "email": "joao.silva2@exemplo.com",
+  "senha": "senhaSegura123",
+  "matricula":"334906",
+  "tituloTrabalho":"Trabalho de Automação",
+  "descricaoTrabalho": "Entrega do projeto com SuperTest e Mocha."
+}
