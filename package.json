@@ -1,13 +1,14 @@
 {
   "name": "testes-gestao-alunos",
   "version": "1.0.0",
+  "description": "Trabalho final - Automação Web com Cypress",
+  "main": "index.js",
   "scripts": {
-  "test": "mocha --timeout 10000 test/**/*.spec.js"
-},
+    "test": "npx cypress run",
+    "cypress:open": "npx cypress open"
+  },
   "devDependencies": {
-    "chai": "^4.3.10",
-    "dotenv": "^16.4.5",
-    "mocha": "^10.2.0",
-    "supertest": "^6.3.4"
+    "cypress": "^13.0.0",
+    "cypress-mochawesome-reporter": "^3.8.0"
   }
 }
